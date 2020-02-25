@@ -1,0 +1,49 @@
+.left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notSelected {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 20px;
+}
+
+#weekly-condition {
+  font-size: 18px;
+  padding-left: 11px;
+}
+
+div#current {
+  border: 2px solid red;
+  padding: 12px;
+  width: 22%;
+}
+
+#forecast {
+  font-size: 20px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#city-select {
+  font-size: 22px;
+}
+
+#weekly-day {
+  font-weight: 600;
+}
